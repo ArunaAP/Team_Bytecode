@@ -13,11 +13,6 @@
             android:name=".calory_menu"
             android:exported="false" />
         <activity
-            android:name=".Side_navigation"
-            android:exported="false"
-            android:label="@string/title_activity_side_navigation"
-            android:theme="@style/Theme.Helthify.NoActionBar" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
