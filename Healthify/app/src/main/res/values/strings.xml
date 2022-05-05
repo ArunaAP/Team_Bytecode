@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Healthify</string>
+    <string name="bmi_calculator_btn">BMI Calculator</string>
+    <string name="daily_calary_calculator_btn">Daily Calorie Calculator</string>
+    <string name="body_fat_cal_btn">body fat calculator</string>
+    <string name="body_shape_cal_btn">Body shape calculator</string>
+    <string name="helthify">Helthify</string>
 </resources>
