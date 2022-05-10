@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Healthify">
         <activity
+            android:name=".uppdate_cal"
+            android:exported="false" />
+        <activity
+            android:name=".calorie_update"
+            android:exported="false" />
+        <activity
+            android:name=".calorie_records"
+            android:exported="false" />
+        <activity
+            android:name=".caloire_result"
+            android:exported="false" />
+        <activity
+            android:name=".calorie_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".calorie_menu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

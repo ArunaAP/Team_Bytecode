@@ -5,4 +5,38 @@
     <string name="body_fat_cal_btn">body fat calculator</string>
     <string name="body_shape_cal_btn">Body shape calculator</string>
     <string name="helthify">Helthify</string>
+    <string name="calorie_menu_btn1">Calculate calorie</string>
+    <string name="calorie_menu_btn2">My records</string>
+    <string name="CalTitle">Calorie Calculator</string>
+    <string name="Calgender">Gender</string>
+
+    <string name="CalActivity">Activity</string>
+    <string name="RadioMale">Male</string>
+    <string name="RadioFemale">Female</string>
+    <string name="CalculateBtn">Calculate</string>
+    <string name="et_age">Enter Age</string>
+    <string name="et_height">Enter Height</string>
+    <string name="et_weight">Enter weight</string>
+    <string name="result">Result</string>
+    <string name="saveCalrecord">Save Record</string>
+    <string name="calorieIntake">Total Daily Cakorie Intake :</string>
+    <string name="protineIntake">Protein Intake</string>
+    <string name="caboIntake">Cabohyrate Intake :</string>
+    <string name="fatIntake">Fat Intake</string>
+    <string name="CalDate">Date</string>
+    <string name="DeleteBtn">Delete</string>
+    <string name="UpdateBtn">Update</string>
+
+    <string name="UpdateCalBtn">Update</string>
+    <string name="cal_toast">Deleted</string>
+    <string name="cal_deleted">Calorie record Deleted Successfully!</string>
+    <string name="CalAge">Age</string>
+    <string name="CalHeight">Height</string>
+    <string name="CalWeight">Weight</string>
+    <string name="date">date</string>
+
+    <string name="age">Age</string>
+    <string name="height">height</string>
+    <string name="weight">weight</string>
+    <string name="calAge">age</string>
 </resources>

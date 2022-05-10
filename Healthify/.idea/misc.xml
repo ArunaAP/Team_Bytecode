@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/namal/Desktop/MAD project/Team_Bytecode/Healthify/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/mad/Team_Bytecode/Healthify/app/src/main/res/layout/activity_calorie_calculator.xml" value="0.536" />
+        <entry key="..\:/mad/Team_Bytecode/Healthify/app/src/main/res/layout/activity_calorie_update.xml" value="0.264" />
+        <entry key="..\:/mad/Team_Bytecode/Healthify/app/src/main/res/layout/activity_upd_cal.xml" value="0.4" />
+        <entry key="..\:/mad/Team_Bytecode/Healthify/app/src/main/res/layout/activity_uppdate_cal.xml" value="0.4663716814159292" />
+        <entry key="..\:/mad/Team_Bytecode/Healthify/app/src/main/res/layout/single_calorie.xml" value="0.536" />
       </map>
     </option>
   </component>
