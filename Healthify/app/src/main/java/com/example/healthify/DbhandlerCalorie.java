@@ -125,4 +125,21 @@ public class DbhandlerCalorie extends SQLiteOpenHelper {
         return null;
     }
 
+    public int updateSingleCalorie(CalorieModel calorieModel){
+        SQLiteDatabase sql = getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put(RESULT, calorieModel.getResult());
+        contentValues.put(AGE, calorieModel.getAge());
+        contentValues.put(HEIGHT, calorieModel.getHeight());
+        contentValues.put(WEIGHT, calorieModel.getWeight());
+        contentValues.put(DATE, calorieModel.getDate());
+
+        int status = sql.update(TABLE_NAME,contentValues,ID +" =?",
+                new String[]{String.valueOf(calorieModel.getId())});
+
+        sql.close();
+        return status;
+    }
+
 }

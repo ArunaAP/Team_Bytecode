@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 
 public class calorie_calculator extends AppCompatActivity {
 
@@ -30,8 +29,8 @@ public class calorie_calculator extends AppCompatActivity {
 
         //RadioGender = findViewById(R.id.RadioGender);
         et_age = findViewById(R.id.et_age);
-        et_height = findViewById(R.id.et_height);
-        et_weight = findViewById(R.id.et_weight);
+        et_height = findViewById(R.id.calheight);
+        et_weight = findViewById(R.id.calweight);
 
 
         CalCalculateBtn = (Button) findViewById(R.id.UpdateCalBtn2);

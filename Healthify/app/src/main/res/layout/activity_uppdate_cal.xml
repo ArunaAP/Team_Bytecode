@@ -36,129 +36,110 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="363dp"
-        android:layout_height="368dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_width="375dp"
+        android:layout_height="359dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
         android:alpha="0.8"
         android:background="@drawable/result_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
 
+    <EditText
+        android:id="@+id/calage"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/et_age"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/calAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toEndOf="@+id/calAge" />
+
+    <EditText
+        android:id="@+id/calheight"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/et_height"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/calHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toEndOf="@+id/calHeight" />
+
+    <EditText
+        android:id="@+id/calweight"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/et_weight"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/weight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toEndOf="@+id/weight" />
+
     <TextView
-        android:id="@+id/waist"
+        android:id="@+id/weight"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="236dp"
         android:text="@string/CalWeight"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/calWeight"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/Calgender"
-        android:layout_width="100dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:text="@string/Calgender"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/calGen"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
 
     <TextView
         android:id="@+id/calAge"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="68dp"
         android:text="@string/CalAge"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/calAge"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
 
     <TextView
         android:id="@+id/calHeight"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="156dp"
         android:text="@string/CalHeight"
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBaseline_toBaselineOf="@+id/calHeight"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/calAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
-        android:ems="10"
-        android:hint="@string/calAge"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.796"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view" />
-
-    <EditText
-        android:id="@+id/calHeight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="188dp"
-        android:ems="10"
-        android:inputType="number"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view" />
-
-    <EditText
-        android:id="@+id/calWeight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
-        android:ems="10"
-        android:inputType="number"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view" />
 
     <Button
-        android:id="@+id/updateCalBTN"
+        android:id="@+id/updtbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="UpdatecalorieCal"
         android:text="Update"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
-    <EditText
-        android:id="@+id/calGen"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view"
-        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,6 +23,9 @@ public class Calorie {
         this.weight = weight;
     }
 
+    public Calorie(int age, int height, int weight) {
+    }
+
 
     public String getGender() {
         return Gender;
