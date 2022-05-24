@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/bustintbtn"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#3949AB"
+tools:context=".AddBodyMeasures">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="430dp"
+        android:layout_height="933dp"
+        android:layout_marginTop="48dp"
+        android:alpha="0.5"
+        android:background="#FDFFFFFF"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/measure" />
+
+    <Button
+        android:id="@+id/genderbtnn"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:text="@string/genderbtn"
+        app:layout_constraintBottom_toTopOf="@+id/agevalue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <Button
+        android:id="@+id/agevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:text="@string/agebtn"
+        app:layout_constraintBottom_toTopOf="@+id/bustbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+    android:id="@+id/bustbtn"
+    android:layout_width="109dp"
+    android:layout_height="60dp"
+    android:layout_marginBottom="16dp"
+    android:text="@string/bustbtn"
+    android:textColor="#C5CAE9"
+    app:layout_constraintBottom_toTopOf="@+id/waistbtn"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.139"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="TextContrastCheck" />
+
+<Button
+    android:id="@+id/waistbtn"
+    android:layout_width="109dp"
+    android:layout_height="60dp"
+    android:layout_marginBottom="20dp"
+    android:text="@string/waistbtn"
+    android:textColor="#C5CAE9"
+    app:layout_constraintBottom_toTopOf="@+id/hipbtn"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.139"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="TextContrastCheck" />
+
+<Button
+    android:id="@+id/hipbtn"
+    android:layout_width="108dp"
+    android:layout_height="58dp"
+    android:layout_marginBottom="28dp"
+    android:text="@string/hipbtn"
+    app:layout_constraintBottom_toTopOf="@+id/higHipbtn"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.139"
+    app:layout_constraintStart_toStartOf="parent" />
+
+<Button
+    android:id="@+id/higHipbtn"
+    android:layout_width="109dp"
+    android:layout_height="60dp"
+    android:layout_marginBottom="116dp"
+    android:text="@string/higHipbtn"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.139"
+    app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/calculatebtn"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="results"
+        android:text="@string/calculatebtnn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/malebtnn"
+        android:layout_width="85dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="@string/malebtnn"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/genderbtnn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <EditText
+        android:id="@+id/bustvalue"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="28dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/bustvaluee"
+        app:layout_constraintBottom_toTopOf="@+id/waistvalue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toEndOf="@+id/bustbtn" />
+
+    <EditText
+        android:id="@+id/waistvalue"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/waistval"
+        app:layout_constraintBottom_toTopOf="@+id/hipValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toEndOf="@+id/waistbtn" />
+
+    <EditText
+        android:id="@+id/hipValue"
+        android:layout_width="158dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="212dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/hipValue"
+        android:textColorHighlight="#FFEB3B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toEndOf="@+id/hipbtn" />
+
+    <EditText
+        android:id="@+id/highHipValue"
+        android:layout_width="161dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/highHipValue"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hipValue"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/ageValue"
+        android:layout_width="156dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/agevalue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toEndOf="@+id/agevalue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        style="@style/ThemeOverlay.MaterialComponents.Toolbar.Primary"
+        android:layout_width="411dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="912dp"
+        android:background="#034c81"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:title=" Body Shape calculation"
+        app:titleTextColor="@color/white" />
+
+    <RadioButton
+        android:id="@+id/femalebtnn"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/femalebtnn"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/malebtnn"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

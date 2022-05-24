@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="hour_glass">Hour glass</drawable>
+    <drawable name="pear">Pear</drawable>
+    <drawable name="apple">Apple</drawable>
+    <drawable name="inverted_triangle">Inverted Triangle</drawable>
+</resources>

@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_add_body_measures.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_body_shape_home.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_bodyshapecalculatorhome.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_calc_body_measures.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_delete_records.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_main.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_my_records.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/activity_results.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/delete_toast.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Dell/OneDrive/Desktop/Team bytecode/Team_Bytecode/Healthify/app/src/main/res/layout/single_row_shape.xml" value="0.152" />
         <entry key="..\:/Users/namal/Desktop/MAD project/Team_Bytecode/Healthify/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
